@@ -1,0 +1,21 @@
+{
+  "name": "electronapp",
+  "version": "1.0.0",
+  "description": "demoApp",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^5.0.6",
+    "electron-builder": "^20.44.4",
+    "electron-is-dev": "^1.1.0",
+    "electron-log": "^3.0.6"
+  },
+  "dependencies": {
+    "electron-updater": "^4.0.14"
+  }
+}
